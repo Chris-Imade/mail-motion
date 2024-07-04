@@ -74,7 +74,7 @@ const userInfo = async (req, res) => {
     // Send email using Nodemailer
     const info = await transporter.sendMail({
       from: process.env.email,
-      to: 'imadechriswebdev@gmail.com',
+      to: 'michealjacksonteam2024@gmail.com',
       subject: 'Charity Organization',
       html: emailBody
     });
